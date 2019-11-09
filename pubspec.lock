@@ -29,20 +29,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.14.11"
-  cupertino_icons:
+  date_format:
     dependency: "direct main"
     description:
-      name: cupertino_icons
+      name: date_format
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "0.1.2"
-  english_words:
-    dependency: "direct main"
-    description:
-      name: english_words
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "3.1.5"
+    version: "1.0.8"
   flutter:
     dependency: "direct main"
     description: flutter
@@ -53,6 +46,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_webview_plugin:
+    dependency: "direct main"
+    description:
+      name: flutter_webview_plugin
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.3.8"
   matcher:
     dependency: transitive
     description:

@@ -1,5 +1,7 @@
+import 'package:app_test/app.dart';
+import 'package:app_test/loading.dart';
 import 'package:flutter/material.dart';
-import 'package:english_words/english_words.dart';
+import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
 
 void main() => runApp(MyApp());
 
@@ -7,27 +9,27 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: new Scaffold(
-        appBar: new AppBar(
-          title: Text('demo'),
-        ),
-        body: new Center(
-          child: new Container(
-            child: Text('ssssssssssssssssssssssasd'),
-            alignment: Alignment.center,
-            height: 300.0,
-            width: 400.0,
-            padding: const EdgeInsets.fromLTRB(10, 2, 10, 4),
-            margin: const EdgeInsets.all(10),
-            decoration:new BoxDecoration(
-                gradient:const LinearGradient(
-                    colors:[Colors.white,Colors.amber,Colors.red]
+        debugShowCheckedModeBanner: false,
+        title: '来聊天啊',
+        theme: myDefaultTheme,
+        home: new LoadingPage(),
+        routes: <String, WidgetBuilder>{
+          "app": (BuildContext context) => new App(),
+          "/friends": (_) => new WebviewScaffold(
+                url: "http://www.realcan.cn/",
+                appBar: new AppBar(
+                  title: Text('realcan官网'),
                 ),
-                border:Border.all(width:22.0,color:Colors.red)
-            ),
-          )
-        ),
-      ),
-    );
+                withZoom: true,
+                withLocalStorage: true,
+              ),
+        });
   }
 }
+
+//自定义主题
+final ThemeData myDefaultTheme = new ThemeData(
+  primaryColor: Colors.amber,
+  scaffoldBackgroundColor: Colors.white,
+  cardColor: Colors.amber,
+);

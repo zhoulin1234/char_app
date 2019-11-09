@@ -22,8 +22,8 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^0.1.2
-  english_words: ^3.1.0
+  flutter_webview_plugin: "^0.3.0+2"
+  date_format: "^1.0.4"
 
 dev_dependencies:
   flutter_test:
@@ -71,3 +71,36 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+assets:
+  #加载图片资源文件
+  - images/bofang.png
+  - images/dianhua.png
+  - images/dingwei.png
+  - images/geren.png
+  - images/guanli.png
+  - images/jingcha.jpg
+  - images/jiqimao.jpg
+  - images/loading.jpg
+  - images/maomi.jpg
+  - images/mingpianliebiao.png
+  - images/miqi.jpg
+  - images/nvsheng.jpg
+  - images/qiyechaxun.png
+  - images/QQ.png
+  - images/qunzu.png
+  - images/quxiao.png
+  - images/shouji.png
+  - images/shouye.png
+  - images/tanglang.jpg
+  - images/weixin.png
+  - images/weixinxiaochengxu.png
+  - images/wenhao.png
+  - images/wode.png
+  - images/xiangji.jpg
+  - images/xiaoxi.png
+  - images/xintiao.jpg
+  - images/xuanzhong.png
+  - images/youjian.png
+  - images/yueliang.jpg
+  - images/zanting.png
+  - images/zhangyu.jpg
