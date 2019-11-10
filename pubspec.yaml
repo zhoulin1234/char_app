@@ -71,36 +71,36 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
-assets:
-  #加载图片资源文件
-  - images/bofang.png
-  - images/dianhua.png
-  - images/dingwei.png
-  - images/geren.png
-  - images/guanli.png
-  - images/jingcha.jpg
-  - images/jiqimao.jpg
-  - images/loading.jpg
-  - images/maomi.jpg
-  - images/mingpianliebiao.png
-  - images/miqi.jpg
-  - images/nvsheng.jpg
-  - images/qiyechaxun.png
-  - images/QQ.png
-  - images/qunzu.png
-  - images/quxiao.png
-  - images/shouji.png
-  - images/shouye.png
-  - images/tanglang.jpg
-  - images/weixin.png
-  - images/weixinxiaochengxu.png
-  - images/wenhao.png
-  - images/wode.png
-  - images/xiangji.jpg
-  - images/xiaoxi.png
-  - images/xintiao.jpg
-  - images/xuanzhong.png
-  - images/youjian.png
-  - images/yueliang.jpg
-  - images/zanting.png
-  - images/zhangyu.jpg
+  assets:
+    #加载图片资源文件
+    - images/bofang.png
+    - images/dianhua.png
+    - images/dingwei.png
+    - images/geren.png
+    - images/guanli.png
+    - images/jingcha.jpg
+    - images/jiqimao.jpg
+    - images/loading.jpg
+    - images/maomi.jpg
+    - images/mingpianliebiao.png
+    - images/miqi.jpg
+    - images/nvsheng.jpg
+    - images/qiyechaxun.png
+    - images/QQ.png
+    - images/qunzu.png
+    - images/quxiao.png
+    - images/shouji.png
+    - images/shouye.png
+    - images/tanglang.jpg
+    - images/weixin.png
+    - images/weixinxiaochengxu.png
+    - images/wenhao.png
+    - images/wode.png
+    - images/xiangji.jpg
+    - images/xiaoxi.png
+    - images/xintiao.jpg
+    - images/xuanzhong.png
+    - images/youjian.png
+    - images/yueliang.jpg
+    - images/zanting.png
+    - images/zhangyu.jpg
