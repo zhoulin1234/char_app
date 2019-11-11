@@ -9,7 +9,7 @@ class _LoadingPageState extends State<LoadingPage> {
   @override
   void initState() {
     super.initState();
-    new Future.delayed(Duration(seconds: 4), () {
+    new Future.delayed(Duration(seconds: 3), () {
       Navigator.of(context).pushReplacementNamed("app");
     });
   }
@@ -20,7 +20,7 @@ class _LoadingPageState extends State<LoadingPage> {
       child: Stack(
         children: <Widget>[
           Image.asset(
-            "images/loading.jpg",
+            "images/loading.jpeg",
             fit: BoxFit.cover,
           )
         ],

@@ -71,7 +71,7 @@ class _AppState extends State<App> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('chat @zhoulin'),
+        title: Text('我不是微信'),
         actions: <Widget>[
           GestureDetector(
             onTap: () {
@@ -90,7 +90,8 @@ class _AppState extends State<App> {
                   items: <PopupMenuEntry>[
                     _popupMenuItem('发起会话',
                         imagePath: 'images/icon_groupchat.png'),
-                    _popupMenuItem('添加好友', imagePath: 'images/icon_addfriend.png'),
+                    _popupMenuItem('添加好友',
+                        imagePath: 'images/icon_addfriend.png'),
                     _popupMenuItem('联系客服', icon: Icons.person)
                   ],
                 );

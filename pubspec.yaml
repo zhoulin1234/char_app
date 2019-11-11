@@ -74,7 +74,6 @@ flutter:
   assets:
     #加载图片资源文件
     - images/bofang.png
-    - images/code.png
     - images/contact_list_normal.png
     - images/contact_list_pressed.png
     - images/dianhua.png
@@ -95,7 +94,7 @@ flutter:
     - images/icon_public.png
     - images/jingcha.jpg
     - images/jiqimao.jpg
-    - images/loading.jpg
+    - images/loading.jpeg
     - images/maomi.jpg
     - images/message_normal.png
     - images/message_pressed.png
