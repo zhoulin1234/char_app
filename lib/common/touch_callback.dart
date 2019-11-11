@@ -1,4 +1,3 @@
-import 'package:date_format/date_format.dart';
 import 'package:flutter/material.dart';
 
 class TouchCallBack extends StatefulWidget {
@@ -41,7 +40,7 @@ class _TouchCallBackState extends State<TouchCallBack> {
           color = widget.background;
         });
       },
-      onPanCancel: (){
+      onPanCancel: () {
         setState(() {
           color = Colors.transparent;
         });
