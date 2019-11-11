@@ -74,17 +74,36 @@ flutter:
   assets:
     #加载图片资源文件
     - images/bofang.png
+    - images/code.png
+    - images/contact_list_normal.png
+    - images/contact_list_pressed.png
     - images/dianhua.png
     - images/dingwei.png
     - images/geren.png
     - images/guanli.png
+    - images/icon_addfriend.png
+    - images/icon_groupchat.png
+    - images/icon_me_clear.png
+    - images/icon_me_file.png
+    - images/icon_me_friends.png
+    - images/icon_me_message.png
+    - images/icon_me_photo.png
+    - images/icon_me_service.png
+    - images/icon_menu_addfriend.png
+    - images/icon_menu_group.png
+    - images/icon_menu_scan.png
+    - images/icon_public.png
     - images/jingcha.jpg
     - images/jiqimao.jpg
     - images/loading.jpg
     - images/maomi.jpg
+    - images/message_normal.png
+    - images/message_pressed.png
     - images/mingpianliebiao.png
     - images/miqi.jpg
     - images/nvsheng.jpg
+    - images/profile_normal.png
+    - images/profile_pressed.png
     - images/qiyechaxun.png
     - images/QQ.png
     - images/qunzu.png
@@ -100,6 +119,7 @@ flutter:
     - images/xiaoxi.png
     - images/xintiao.jpg
     - images/xuanzhong.png
+    - images/yixiu.jpeg
     - images/youjian.png
     - images/yueliang.jpg
     - images/zanting.png

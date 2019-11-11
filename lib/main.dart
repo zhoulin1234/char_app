@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
 
 //自定义主题
 final ThemeData myDefaultTheme = new ThemeData(
-  primaryColor: Colors.amber,
+  primaryColor: Colors.purple,
   scaffoldBackgroundColor: Colors.white,
-  cardColor: Colors.amber,
+  cardColor: Colors.purple,
 );
